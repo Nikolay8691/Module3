@@ -83,4 +83,3 @@ while True:
 				print('Nothing to do - GOOD!. See what we have on the list')
 				with open('data_pizza.json', 'r') as f:
 					print(json.load(f))
-
