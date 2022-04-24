@@ -23,7 +23,7 @@ print(m1)
 
 lmax = 0
 for i in range(n) :
-	l = list(m1[i])
+	l = m1[i]
 	for j in range(n):
 		if l[j] > lmax : lmax = l[j]
 
