@@ -8,7 +8,6 @@ def register (login, passwd) :
 
 	with open('users_data.json', 'r') as f:
 		users = json.load(f)
-#	users = {}
 
 	if login in users.keys() :
 		print (' OOOps! This login is already on the list!')
@@ -20,7 +19,7 @@ def register (login, passwd) :
 
 	pass 
 
-#for i in range(2) :
+#main program
 login = input(' input your login : ')
 passwd = input(' input your password : ')
 register(login, passwd)

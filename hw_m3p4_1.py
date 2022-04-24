@@ -15,7 +15,7 @@ def register (login, passwd) :
 
 	pass 
 
-#for i in range(2) :
+#main program
 login = input(' input your login : ')
 passwd = input(' input your password : ')
 register(login, passwd)
