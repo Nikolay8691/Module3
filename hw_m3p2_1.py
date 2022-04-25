@@ -12,3 +12,14 @@ print('l_unique by for : ', l_unique)
 l_unique = []
 l_unique = list(set(l))
 print('l_unique by set : ', l_unique)
+
+l_repeat = []
+for i in l_unique :
+	j = 0
+	for k in l : 
+		if k == i :
+			j += 1
+			if j > 1 :
+				l_repeat.append(i)
+
+print('repeated elements of the list : ', l_repeat)

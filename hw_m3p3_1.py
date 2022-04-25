@@ -1,8 +1,10 @@
 print(' welcome to Module 3 Part 3 homework 1! ')
 
+from math import sqrt
+
 def sq(a,b,c) :
 	p = (a + b + c) / 2
-	s = p * (p - a) * (p - b) * (p - c)
+	s = sqrt(p * (p - a) * (p - b) * (p - c))
 	return s
 
 #main program
