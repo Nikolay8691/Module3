@@ -5,7 +5,7 @@ def lmax(l) :
 	j_lmax = 1
 
 	n = len(l)
-	l_plus = [[0 for i in range(n)] for j in range(n)]
+	l_plus = [[0 for i in range(2)] for j in range(n)]
 
 #	print(l_plus)
 
