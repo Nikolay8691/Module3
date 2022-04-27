@@ -78,7 +78,7 @@ print(' list1 : ', l1)
 #print(' list2 : ', l2)
 
 for i in range(len(l)-1) :
-	for j in range(len(l)-1) :
+	for j in range(len(l)-1-i) :
 		a = l1[j]
 		b = l[j]
 		if a > l1[j + 1] :
